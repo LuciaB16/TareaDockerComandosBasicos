@@ -19,6 +19,9 @@ $ docker ps -a
 
 3. Crea un contenedor con el nombre 'dam_ubu1'. ¿Como puedes acceder a él?
 
+$ docker run -it --name dam_ubu1 ubuntu:latest bash
+
+
 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
 
 5. Crea un contenedor con el nombre 'dam_ubu2'. ¿Puedes hacer ping entre los contenedores?
