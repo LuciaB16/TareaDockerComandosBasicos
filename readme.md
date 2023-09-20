@@ -43,6 +43,10 @@ No se puede hacer ping entre ambos contenedores porque en éste (dam_ubu2) no se
 
 6. Sal del terminal, ¿que ocurrió con el contenedor?
 
+#exit
+
+El contenedor se cierra pero no se borra, lo podemos ver con $ docker ps -a
+
 7. ¿Cuanta memoria en el disco duro ocupaste?
 
 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
