@@ -7,6 +7,10 @@ Utilizaremos la imagen de Ubuntu. Usa Visual Studio Code y Docker junto con esta
 
 1. Descarga la imagen 'ubuntu y comprueba que está en tu equipo.
 
+$ docker run ubuntu
+
+$ docker image ls
+
 2. Crea un contenedor sin ponerle nombre. ¿Está arrancado? Obtén el nombre.
 
 3. Crea un contenedor con el nombre 'dam_ubu1'. ¿Como puedes acceder a él?
