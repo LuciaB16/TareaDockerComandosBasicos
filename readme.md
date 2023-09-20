@@ -13,6 +13,10 @@ $ docker image ls
 
 2. Crea un contenedor sin ponerle nombre. ¿Está arrancado? Obtén el nombre.
 
+$ docker run -it ubuntu:latest bash
+
+$ docker ps -a
+
 3. Crea un contenedor con el nombre 'dam_ubu1'. ¿Como puedes acceder a él?
 
 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
