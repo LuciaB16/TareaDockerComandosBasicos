@@ -37,6 +37,10 @@ $ docker run -it --name dam_ubu1 ubuntu:latest bash
 
 5. Crea un contenedor con el nombre 'dam_ubu2'. ¿Puedes hacer ping entre los contenedores?
 
+$ docker run -it --name dam_ubu2 ubuntu:latest bash
+
+No se puede hacer ping entre ambos contenedores porque en éste (dam_ubu2) no se siguieron los pasos del apartado 4 para hacer ping. En el caso de que se lleven a cabo de nuevo, sí se puede hacer ping.
+
 6. Sal del terminal, ¿que ocurrió con el contenedor?
 
 7. ¿Cuanta memoria en el disco duro ocupaste?
