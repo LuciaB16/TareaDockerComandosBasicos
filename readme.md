@@ -49,4 +49,15 @@ El contenedor se cierra pero no se borra, lo podemos ver con $ docker ps -a
 
 7. ¿Cuanta memoria en el disco duro ocupaste?
 
+``````
+$ docker system df
+
+TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          4         4         194.7MB   0B (0%)
+Containers      24        0         274.8MB   274.8MB (100%)
+Local Volumes   0         0         0B        0B
+Build Cache     0         0         0B        0B
+``````
+
+
 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
