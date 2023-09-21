@@ -61,3 +61,14 @@ Build Cache     0         0         0B        0B
 
 
 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
+Para saber cuanto ocupa cada contenedor de los creados, debemos runnear cada uno de ellos con el comando docker start dam_ubu1 y respectivamente docker start dam_ubu2, y posteriormente lanzar el siguiente comando:
+
+
+``````
+$ docker stats
+
+CONTAINER ID   NAME       CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+9545905b3bcd   dam_ubu2   0.00%     892KiB / 15.39GiB     0.01%     4.48kB / 0B   4.1kB / 0B    1
+77bb37141604   dam_ubu1   0.00%     4.324MiB / 15.39GiB   0.03%     13.3kB / 0B   4.76MB / 0B   1
+``````
